@@ -1,0 +1,107 @@
+# Site settings
+title: Hody World
+SEOTitle: Hody 探索未知世界 | Sody Lab
+header-img: img/home/home-bg-10.jpg
+email: njnuhetao@163.com
+description: "关于\'Spring,SpringMVC,SpringBoot相关框架'\与|\'机器学习'\| Hody，aim to be a full stack developer , AI Algorithm Engineer | 这里是 @Sody 的个人博客，代码改变世界。"
+keyword: "Hody, Spring, SpringMVC, SpringBoot, 机器学习, 人工智能, 数据挖掘, 数据分析, AI, marchine learning, data mining, deep learning, 大数据, hadoop, 博客, 个人网站, 互联网"
+url: "novasky.top"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+markdown: maruku
+
+# SNS settings
+RSS: false
+weibo_username:     jerrywinning
+zhihu_username:     zhang-lei-18-98
+github_username:    Hody
+twitter_username:   Hody
+facebook_username:  Hody
+# linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+# Disqus settings
+#disqus_username: zlxy9892
+
+# Netease setttings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+
+# Google Analytics
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Create autonomous machine,<br>制造自主机器之心"
+sidebar-avatar: /img/head/head8.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "Google",
+        href: "http://www.google.com/"
+    },{
+        title: "Baidu",
+        href: "http://www.baidu.com/"
+    },{
+        title: "Weibo",
+        href: "http://weibo.com/"
+    }, {
+        title: "Zhihu",
+        href: "http://zhihu.com/"
+    }, {
+        title: "scikit-learn",
+        href: "http://scikit-learn.org/"
+    }, {
+        title: "TensorFlow",
+        href: "https://www.tensorflow.org/"
+	}
+]

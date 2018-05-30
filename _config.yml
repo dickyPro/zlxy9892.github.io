@@ -1,10 +1,10 @@
 # Site settings
-title: Nova Space
-SEOTitle: Nova 空间站 | Nova Space
+title: Hody World
+SEOTitle: Hody 探索未知世界 | Sody Lab
 header-img: img/home/home-bg-10.jpg
-email: zlxy9892@163.com
-description: "关于\'机器学习\'与\'学习机器\' | Nova，Machine Learning & Data Mining Lover, AI Algorithm Engineer | 这里是 @Nova 的个人博客，与你一起发现自主学习机器的魅力。"
-keyword: "Nova, 机器学习, 人工智能, 数据挖掘, 数据分析, AI, marchine learning, data mining, deep learning, 大数据, hadoop, 深度学习, 神经网络, 集成学习, 贝叶斯, 决策树, 逻辑回归, SVM, 聚类, 分类, 推荐系统, 降维, PCA, 博客, 个人网站, 互联网"
+email: njnuhetao@163.com
+description: "关于\'Spring,SpringMVC,SpringBoot相关框架'\与|\'机器学习'\| Hody，aim to be a full stack developer , AI Algorithm Engineer | 这里是 @Sody 的个人博客，代码改变世界。"
+keyword: "Hody, Spring, SpringMVC, SpringBoot, 机器学习, 人工智能, 数据挖掘, 数据分析, AI, marchine learning, data mining, deep learning, 大数据, hadoop, 博客, 个人网站, 互联网"
 url: "novasky.top"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -12,11 +12,11 @@ markdown: maruku
 
 # SNS settings
 RSS: false
-weibo_username:     jerrywinning
-zhihu_username:     zhang-lei-18-98
-github_username:    zlxy9892
-twitter_username:   zlxy9892
-facebook_username:  jerry.zhang.505523
+weibo_username:     Hody
+zhihu_username:     Hody
+github_username:    Hody
+twitter_username:   Hody
+facebook_username:  Hody
 # linkedin_username:  firstname-lastname-idxxxx
 
 
